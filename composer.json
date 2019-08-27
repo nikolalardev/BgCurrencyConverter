@@ -1,0 +1,25 @@
+{
+    "name": "lardev/module-currency-converter",
+    "description": "This is a Magento 2 module which integrates currency converter with the Magento 2 application.",
+    "require": {
+        "php": "~7.1.0|~7.2.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "GPL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lardev\\CurrencyConverter\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikola Lardev",
+            "email": "nikolalardev@gmail.com"
+        }
+    ]
+}
